@@ -3,6 +3,7 @@ on: [push]
 jobs:
   run-shell-commandsdsfds:
     runs-on: ubuntu-latest
+    name: where does this goo ?
     steps:
       - name: My First CMD
         run: echo "HELLLO WORLD !!!"
